@@ -1,0 +1,207 @@
+.container {
+  display: block;
+}
+
+.containerHead {
+  min-height: calc(100vh - 5rem);
+  margin: 0 auto;
+  max-width: 1120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.containerHead img {
+  max-width: 640px;
+}
+
+.CTAText {
+  max-width: 600px;
+}
+
+.CTAText h1 {
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+  font-weight: 900;
+  margin-top: 2.5rem;
+  color: var(--white);
+}
+
+.CTAText span {
+  font-size: 1rem;
+  line-height: 2.25rem;
+  color: var(--white);
+}
+
+.CTAText a button {
+  display: block;
+  background-color: var(--blue-900);
+  border: 0;
+  padding: 1rem 1.8rem;
+  margin-top: 2.5rem;
+  border-radius: 7px;
+  color: var(--white);
+  font-weight: bold;
+}
+
+.divisor {
+  width: 100%;
+  bottom: 0;
+  height: 1px;
+  border-color: var(--gray-200);
+}
+
+.sectionContent {
+  margin: 5.5rem auto;
+  max-width: 1120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sectionContent section {
+  max-width: 670px;
+}
+
+.sectionContent img {
+  max-width: 550px;
+}
+
+.sectionContent h2 {
+  font-size: 2.2rem;
+  line-height: 4.5rem;
+  font-weight: 900;
+  margin-top: 2.2rem;
+  color: var(--white);
+}
+
+.sectionContent span {
+  font-size: 1rem;
+  line-height: 2.2rem;
+  color: var(--white);
+}
+
+.otherContent {
+  margin: 6rem auto;
+  max-width: 1120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.otherContent h2 {
+  font-size: 2.8rem;
+  line-height: 4.5rem;
+  font-weight: 900;
+  color: var(--white);
+}
+
+.otherContent h2 span {
+  font-size: 2.8rem;
+  line-height: 4.5rem;
+  font-weight: 900;
+  color: var(--blue-900);
+}
+
+.otherContent span {
+  font-size: 1rem;
+  line-height: 2.25rem;
+  color: var(--white);
+}
+
+.otherContent button {
+  background-color: var(--blue-900);
+  border: 0;
+  padding: 1rem 1.8rem;
+  margin-top: 2.5rem;
+  border-radius: 6px;
+  color: var(--white);
+  font-weight: bold;
+}
+
+@media (max-width: 1095px) {
+  .container .containerHead {
+    padding: 0 2rem;
+  }
+  .container .containerHead button {
+    display: block;
+  }
+  .container img {
+    max-width: 600px;
+  }
+  .container div h1 {
+    font-size: 3rem;
+  }
+  .container div h2 {
+    font-size: 2.3rem;
+  }
+  .container div h2 span {
+    font-size: 2.3rem;
+  }
+  .container .sectionContent, .container .otherContent {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .container .containerHead {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .containerHead button {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container div img {
+    max-width: 500px;
+  }
+  .container div h1 {
+    font-size: 3rem;
+  }
+  .container h2 {
+    font-size: 1rem;
+  }
+  .container .sectionContent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .sectionContent img {
+    margin-top: 2rem;
+    max-width: 400px;
+  }
+}
+/*# sourceMappingURL=Home.module.css.map */

@@ -1,0 +1,123 @@
+
+.headerContainer{
+    min-height: 6rem;
+    /* height: auto; */
+
+    border-bottom: 1px solid var(--grey-200);
+    /* border:2px solid blue; */
+    background: var(--grey-700);
+    box-sizing: border-box;  
+
+
+}
+
+.headerContent{
+    /* position: fixed; */
+    /* border:2px solid green; */
+    max-width: 1120px;
+    height: 6rem;
+    /* height: auto; */
+
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;  
+
+    
+}
+
+.headerContent img{
+    cursor: pointer;
+    /* border:2px solid orange; */
+}
+
+.headerContent nav{
+    margin-left: 5rem;
+    height: 6rem;
+    /* border:1px solid red;    */
+}
+
+
+.headerContent nav a{
+         display: inline-block;
+         position: relative;
+         padding: 0 .5rem;
+         height: 6rem;
+         line-height: 6rem;
+         color: var(--grey-100);
+         transition: color .5s;
+}
+
+/* .headerContent nav{
+    position:relative;
+    border:2px solid red;
+} */
+
+.headerContent nav a:not(:first-child){
+   margin-left: 2em;
+}
+
+.headerContent nav a:hover{
+    color: var(--white)
+ }
+
+ /* .headerContent nav a:active{
+     color: var(--yellow-900);
+     font-weight: bold;
+ } */
+
+ .active{
+    color: var(--yellow-900) !important;
+    /* color:red !important; */
+    font-weight: bold;
+    /* border:2px solid green; */
+}
+
+
+ .readyButton{
+     margin-left: auto;
+     height: 3rem;
+     border-radius: 3rem;
+     background: var(--blue-900);
+     border:0;
+     padding: 0 1.5rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: var(--white);
+     font-weight: bold;
+     transition: filter .9s;
+
+ }
+
+ .readyButton:hover{
+     filter: brightness(1.1);
+ }
+
+ @media (max-width:870px){
+    .headerContainer{
+         min-height: 11rem;
+         /* background-color: yellow; */
+         padding: .5rem 0;
+    }
+
+    .headerContent{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .headerContent nav{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+        /* background-color: chartreuse; */
+    }
+
+    .headerContent .readyButton{
+        display: none;
+    }
+ }

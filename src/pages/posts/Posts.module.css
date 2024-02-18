@@ -1,0 +1,104 @@
+.container {
+  max-width: 1120;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.posts {
+  max-width: 720px;
+  margin: 5rem auto;
+}
+
+.posts a {
+  display: block;
+}
+
+.posts a + a {
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+
+.posts a time {
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--gray-200);
+}
+
+.posts a img {
+  max-width: 100%;
+  max-height: 410px;
+  border: 2px solid var(--blue-900);
+  border-radius: 6px;
+  -o-border-image: linear-gradient(95deg, #31B4D0, transparent) 1;
+     border-image: linear-gradient(95deg, #31B4D0, transparent) 1;
+}
+
+.posts a strong {
+  display: block;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  line-height: 2rem;
+  color: var(--white);
+  -webkit-transition: color .7s;
+  transition: color .7s;
+}
+
+.posts a strong:hover {
+  color: var(--blue-900);
+}
+
+.posts a p {
+  color: var(--white);
+  margin-top: 0.5rem;
+  line-height: 1.62rem;
+}
+
+.buttonAvigate {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.buttonAvigate div span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 3px solid green;
+}
+
+.buttonAvigate button {
+  margin: 0 5px;
+  border: 0;
+  background: var(--blue-900);
+  color: var(--white);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: .5rem;
+  border-radius: 5px;
+}
+
+.buttonAvigate button svg {
+  padding: 0 3px;
+}
+/*# sourceMappingURL=Posts.module.css.map */
