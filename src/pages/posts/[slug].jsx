@@ -13,8 +13,8 @@ import Image from 'next/image';
 
 
 function PostDetail({le_posttita}) {   
-
-    alert('FAVOR SEJA BEM-VINDO')
+    
+    
     const local = useRouter();
      
     
