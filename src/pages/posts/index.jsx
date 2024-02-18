@@ -135,7 +135,7 @@ export default function Posts({recebido,crua,totaPage,page,unico,numerola}) {
                           }}  
                           key={postUnico.slug}
                            onClick={(e)=>{
-                             e.preventDefault();
+                            //  e.preventDefault();
                             //  alert('__redirecionando...')
                             // router.push(`/`, { state: postUnico })
                             
