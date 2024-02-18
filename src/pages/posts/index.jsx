@@ -138,7 +138,7 @@ export default function Posts({recebido,crua,totaPage,page,unico,numerola}) {
                              e.preventDefault();
                             //  alert('__redirecionando...')
                             // router.push(`/`, { state: postUnico })
-                            // opa
+                            
                            }}
                           >
 
