@@ -1,0 +1,9 @@
+<Link
+  href="/details"
+  onClick={() => {
+    // Set prop values here
+    navigate('/details', { state: { prop1: value1, prop2: value2 } });
+  }}
+>
+  Product Details
+</Link>

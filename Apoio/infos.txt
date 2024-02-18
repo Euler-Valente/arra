@@ -1,0 +1,19 @@
+npx @slicemachine/init@latest --repository sujovisk --starter nextjs-starter-prismic-minimal-ts
+
+sujovisk
+
+
+npm install @prismicio/client@5.1.0 prismic-dom
+
+
+[correr o projeto]:
+
+cd <your-project-name>
+
+npm run dev
+
+https://github.com/Euler-Valente/sujeito-versales.git
+https://github.com/Euler-Valente/arr
+
+https://github.com/Euler-Valente
+
